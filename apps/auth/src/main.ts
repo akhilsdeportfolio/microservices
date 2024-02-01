@@ -7,7 +7,7 @@ async function bootstrap() {
     AuthModule,
     {
       transport: Transport.TCP,
-      options: { port: +process?.env?.PORT || 3001 },
+      options: { port: 3001 },
     },
   );
   const resp = await app.listen();
