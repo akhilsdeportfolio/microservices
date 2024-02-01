@@ -10,7 +10,7 @@
     "format": "prettier --write \"apps/**/*.ts\" \"libs/**/*.ts\"",
     "start": "yarn start:all", 
     "start:web":"nest start",
-    "start:all": "concurrently \"yarn start:web\" \"yarn start:auth\" \"yarn start:orders\"",
+    "start:all": "concurrently \"yarn start:prod\" \"yarn start:auth\" \"yarn start:orders\"",
     "start:auth": "nest start auth",
     "start:orders": "nest start orders",
     "start:dev": "nest start --watch",
