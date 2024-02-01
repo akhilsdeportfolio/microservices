@@ -1,0 +1,5 @@
+# railway.toml
+
+[service]
+port_1 = 3001
+port_2 = 3002
